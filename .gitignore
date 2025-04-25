@@ -1,0 +1,46 @@
+# compiled files and binaries
+
+*.o
+*.out
+*.exe
+
+
+# Logs and temporary files
+
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+
+
+# System files
+
+.DS_Store
+Thumbs.db
+
+
+# Backup files from editors
+
+*~
+\#*\#
+.\#*
+
+
+# Files created by test runs
+
+test-output/
+debug/
+results/
+
+
+# Credentials or secrets
+
+secrets.env
+*.key
+*.pem
+*.crt
+*.enc
+
+
