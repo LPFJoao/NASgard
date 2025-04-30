@@ -6,7 +6,7 @@ source "$(dirname "$0")/scripts/logo.sh"
 
 #DEPENDANCIES
 
-Package_list=(dialog wget sudo bash lsb-release)
+Package_list=(dialog wget sudo bash lsb-release mdadm)
 
 echo "------------------------------------------------ "
 echo "  Updating Debian package lists..."
@@ -39,7 +39,7 @@ if [ $? -ne 0 ]; then
 fi
 
 dialog --title "NASgard" \
-       --msgbox "Welcome to NASgard setup!\nThe first user friendly setup." 8 50
+       --msgbox "     Welcome to NASgard setup!\n   The first user friendly setup." 8 40
 
 
 
